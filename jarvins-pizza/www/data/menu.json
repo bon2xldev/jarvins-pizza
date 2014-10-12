@@ -1,0 +1,29 @@
+{ 
+  
+  "menu": {
+    "pizza": {
+      
+      "pepperoni": {
+        "toppings": "Italian tomato sauce, pepperoni + mozzarella cheese.",
+        "size": {
+          "S": 10,
+          "M": 12,
+          "L": 15
+        }
+      }
+    }
+    
+    // "salad": {
+
+    // },
+    
+    // "beverage": {
+    //   "pepsi":{
+    //     "price": 90
+    //   },
+
+    // }
+
+  }
+
+}
