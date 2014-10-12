@@ -1,29 +1,105 @@
-{ 
-  
+{
   "menu": {
     "pizza": {
-      
       "pepperoni": {
         "toppings": "Italian tomato sauce, pepperoni + mozzarella cheese.",
         "size": {
           "S": 10,
           "M": 12,
           "L": 15
-        }
+        },
+        "img": "img/pizza/pepperoni.jpg"
+      },
+      "ham and pineapple": {
+        "toppings": "talian tomato sauce, Canadian ham, pineapple + mozzarella.",
+        "size": {
+          "S": 10,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/ham-and-pineapple"
+      },
+      "cheese": {
+        "toppings": "talian tomato sauce, Canadian ham, pineapple + mozzarella.",
+        "size": {
+          "S": 10,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/cheese.jpg"
+      },
+      "brooklyn-style pepperoni": {
+        "toppings": "Slices of juicy pepperoni baked on top of even more pepperoni, all on a bed of Italian tomato sauce + classic mozzarella",
+        "size": {
+          "S": 10.50,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/brooklyn.jpg"
+      },
+      "Meat Lover": {
+        "toppings": "Ham, pepperoni, salami, italian sausage, mozza & tomato sauce",
+        "size": {
+          "S": 10.50,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/meat-lovers.jpg"
+      },
+      "Grilled BBQ Chicken Supreme": {
+        "toppings": " Grilled chicken, bacon, onion, green pepper, mozza and barbecue sauce",
+        "size": {
+          "S": 10.50,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/grilled-bbq.jpg"
+      },
+      "Vegetarian": {
+        "toppings": " Mushrooms, onion, green pepper, olives, fresh tomato, mozza & tomato sauce",
+        "size": {
+          "S": 10.50,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/vegetarian_pizza.jpg"
+      },
+      "Louisiana Chicken": {
+        "toppings": "Smothered in flavorful BBQ sauce and loaded with chicken, bacon, onions, green peppers and cheddar cheese.",
+        "size": {
+          "S": 10.50,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/louisiana_chicken.jpg"
+      },
+      "BBQ Chicken Feast": {
+        "toppings": "mushrooms, onions, green peppers, banana peppers",
+        "size": {
+          "S": 10.50,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/bbq-chickenn.jpg"
+      },
+      "Philly Steak": {
+        "toppings": "Loaded with tender slices of steak, melted Provolone cheese, onions, green peppers, mushrooms, and American cheese.",
+        "size": {
+          "S": 10.50,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/philly-steak"
+      },
+      "Canadian Pizza": {
+        "toppings": "Loads of pepperoni, fresh mushrooms, and smoked bacon, topped with an extra layer of premium mozzarella cheese.",
+        "size": {
+          "S": 10.50,
+          "M": 13,
+          "L": 16
+        },
+        "img": "img/pizza/philly-steak"
       }
     }
-    
-    // "salad": {
-
-    // },
-    
-    // "beverage": {
-    //   "pepsi":{
-    //     "price": 90
-    //   },
-
-    // }
-
   }
-
 }
