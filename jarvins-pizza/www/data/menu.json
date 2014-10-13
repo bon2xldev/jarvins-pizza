@@ -1,7 +1,8 @@
 {
   "menu": {
     "pizza": {
-      "pepperoni": {
+      "name": "pepperoni",
+      "details": {
         "toppings": "Italian tomato sauce, pepperoni + mozzarella cheese.",
         "size": {
           "S": 10,
@@ -10,7 +11,8 @@
         },
         "img": "img/pizza/pepperoni.jpg"
       },
-      "ham and pineapple": {
+      "name": "ham and pineapple",
+      "details": {
         "toppings": "talian tomato sauce, Canadian ham, pineapple + mozzarella.",
         "size": {
           "S": 10,
@@ -19,7 +21,8 @@
         },
         "img": "img/pizza/ham-and-pineapple"
       },
-      "cheese": {
+      "name": "cheese",
+      "details": {
         "toppings": "talian tomato sauce, Canadian ham, pineapple + mozzarella.",
         "size": {
           "S": 10,
@@ -28,7 +31,8 @@
         },
         "img": "img/pizza/cheese.jpg"
       },
-      "brooklyn-style pepperoni": {
+      "name": "brooklyn-style pepperoni",
+      "details": {
         "toppings": "Slices of juicy pepperoni baked on top of even more pepperoni, all on a bed of Italian tomato sauce + classic mozzarella",
         "size": {
           "S": 10.50,
@@ -37,7 +41,8 @@
         },
         "img": "img/pizza/brooklyn.jpg"
       },
-      "Meat Lover": {
+      "name": "Meat Lover",
+      "details": {
         "toppings": "Ham, pepperoni, salami, italian sausage, mozza & tomato sauce",
         "size": {
           "S": 10.50,
@@ -46,7 +51,8 @@
         },
         "img": "img/pizza/meat-lovers.jpg"
       },
-      "Grilled BBQ Chicken Supreme": {
+      "name": "Grilled BBQ Chicken Supreme",
+      "details": {
         "toppings": " Grilled chicken, bacon, onion, green pepper, mozza and barbecue sauce",
         "size": {
           "S": 10.50,

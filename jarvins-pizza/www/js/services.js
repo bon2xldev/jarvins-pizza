@@ -1,5 +1,18 @@
-angular.module('starter.services', [])
+angular.module('jarp.services', ['firebase'])
 
+.factory('JarpSrvcs', function($firebase) {
+  var ref = new Firebase("https://jarvins-pizza.firebaseio.com/");
+  // create an AngularFire reference to the data
+  var sync = $firebase(ref);
+  // download the data into a local object
+
+  return {
+    allPizza: function() {
+      return sync.$asObject();
+    }
+  }
+
+})
 /**
  * A simple example service that returns some data.
  */
@@ -18,7 +31,7 @@ angular.module('starter.services', [])
     all: function() {
       return friends;
     },
-    get: function(friendId) {
+    yoh: function(friendId) {
       // Simple index lookup
       return friends[friendId];
     }

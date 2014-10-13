@@ -1,6 +1,7 @@
-angular.module('starter.controllers', [])
+angular.module('jarp.controllers', [])
 
-.controller('DashCtrl', function($scope) {
+.controller('pizzamenuCtrl', function($scope, JarpSrvcs) {
+	$scope.pizzas = JarpSrvcs.allPizza();
 })
 
 .controller('FriendsCtrl', function($scope, Friends) {
@@ -8,7 +9,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
-  $scope.friend = Friends.get($stateParams.friendId);
+  $scope.friend = Friends.yoh($stateParams.friendId);
 })
 
 .controller('AccountCtrl', function($scope) {
