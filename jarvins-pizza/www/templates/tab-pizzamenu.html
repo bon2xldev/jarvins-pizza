@@ -1,8 +1,11 @@
 <ion-view title="Pizza Menu">
   <ion-content class="padding">
     <h1>Pizza Menu</h1>
-    <div ng-repeat="pizza in pizzas">
-    	{{pizza.pizza}}
+    <div ng-repeat="list in lists">
+    {{list.name}}<br />
+    {{list.toppings}}
+    <br />
+    <br />
     </div>
   </ion-content>
 </ion-view>

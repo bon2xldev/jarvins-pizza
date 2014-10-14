@@ -47,6 +47,15 @@ angular.module('jarvins-pizza', ['ionic', 'jarp.controllers', 'jarp.services'])
         }
       }
     })
+    .state('tab.pizza-detail', {
+      url: '/pizza/:pizzaId',
+      views: {
+        'tab-pizzamenu': {
+          templateUrl: 'templates/pizza-detail.html',
+          controller: 'pizzadetailCtrl'
+        }
+      }
+    })
 
     .state('tab.friends', {
       url: '/friends',
@@ -78,7 +87,7 @@ angular.module('jarvins-pizza', ['ionic', 'jarp.controllers', 'jarp.services'])
     });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/friends');
+  $urlRouterProvider.otherwise('/tab/pizza-menu');
 
 });
 

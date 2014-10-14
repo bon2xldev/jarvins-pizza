@@ -1,16 +1,20 @@
 angular.module('jarp.services', ['firebase'])
 
-.factory('JarpSrvcs', function($firebase) {
-  var ref = new Firebase("https://jarvins-pizza.firebaseio.com/");
-  // create an AngularFire reference to the data
-  var sync = $firebase(ref);
-  // download the data into a local object
+.factory('menuSrvcs', function($firebase) {
+  var url = "https://jarvins-pizza.firebaseio.com/menu/pizza/";
 
   return {
-    allPizza: function() {
+    menu: function() {
+      var ref = new Firebase(url);
+      var sync = $firebase(ref);
+      return sync.$asObject();
+    },
+    itemDetail: function(pizzaId) {
+      var ref = new Firebase(url + pizzaId);
+      var sync = $firebase(ref);
       return sync.$asObject();
     }
-  }
+  } 
 
 })
 /**

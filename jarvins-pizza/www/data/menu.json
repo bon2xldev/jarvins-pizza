@@ -1,48 +1,48 @@
 {
   "menu": {
-    "pizza": {
-      "name": "pepperoni",
-      "details": {
+    "pizza": [
+      {
+        "name": "pepperoni",
         "toppings": "Italian tomato sauce, pepperoni + mozzarella cheese.",
-        "size": {
-          "S": 10,
-          "M": 12,
-          "L": 15
-        },
-        "img": "img/pizza/pepperoni.jpg"
-      },
-      "name": "ham and pineapple",
-      "details": {
-        "toppings": "talian tomato sauce, Canadian ham, pineapple + mozzarella.",
+        "img": "img/pizza/pepperoni.jpg",
         "size": {
           "S": 10,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/ham-and-pineapple"
+        }
       },
-      "name": "cheese",
-      "details": {
-        "toppings": "talian tomato sauce, Canadian ham, pineapple + mozzarella.",
+      {
+        "name": "ham and pineapple",
+        "toppings": "Italian tomato sauce, Canadian ham, pineapple + mozzarella.",
+        "img": "img/pizza/ham-and-pineapple.jpg",
         "size": {
           "S": 10,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/cheese.jpg"
+        }
       },
-      "name": "brooklyn-style pepperoni",
-      "details": {
+      {
+        "name": "cheese",
+        "toppings": "talian tomato sauce, Canadian ham, pineapple + mozzarella.",
+        "img": "img/pizza/cheese.jpg",
+        "size": {
+          "S": 10,
+          "M": 13,
+          "L": 16
+        }
+      },
+      {
+        "name": "brooklyn-style pepperoni",
         "toppings": "Slices of juicy pepperoni baked on top of even more pepperoni, all on a bed of Italian tomato sauce + classic mozzarella",
+        "img": "img/pizza/brooklyn.jpg",
         "size": {
           "S": 10.50,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/brooklyn.jpg"
+        }
       },
-      "name": "Meat Lover",
-      "details": {
+      {
+        "name": "Meat Lover",
         "toppings": "Ham, pepperoni, salami, italian sausage, mozza & tomato sauce",
         "size": {
           "S": 10.50,
@@ -51,61 +51,66 @@
         },
         "img": "img/pizza/meat-lovers.jpg"
       },
-      "name": "Grilled BBQ Chicken Supreme",
-      "details": {
+      {
+        "name": "Grilled BBQ Chicken Supreme",
         "toppings": " Grilled chicken, bacon, onion, green pepper, mozza and barbecue sauce",
+        "img": "img/pizza/grilled-bbq.jpg",
         "size": {
           "S": 10.50,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/grilled-bbq.jpg"
+        }
       },
-      "Vegetarian": {
+      {
+        "name": "Vegetarian",
         "toppings": " Mushrooms, onion, green pepper, olives, fresh tomato, mozza & tomato sauce",
+        "img": "img/pizza/vegetarian_pizza.jpg",
         "size": {
           "S": 10.50,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/vegetarian_pizza.jpg"
+        }
       },
-      "Louisiana Chicken": {
+      {
+        "name": "Louisiana Chicken",
         "toppings": "Smothered in flavorful BBQ sauce and loaded with chicken, bacon, onions, green peppers and cheddar cheese.",
+        "img": "img/pizza/louisiana_chicken.jpg",
         "size": {
           "S": 10.50,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/louisiana_chicken.jpg"
+        }
       },
-      "BBQ Chicken Feast": {
+      {
+        "name": "BBQ Chicken Feast",
         "toppings": "mushrooms, onions, green peppers, banana peppers",
+        "img": "img/pizza/bbq-chicken.jpg",
         "size": {
           "S": 10.50,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/bbq-chickenn.jpg"
+        }
       },
-      "Philly Steak": {
+      {
+        "name": "Philly Steak",
         "toppings": "Loaded with tender slices of steak, melted Provolone cheese, onions, green peppers, mushrooms, and American cheese.",
+        "img": "img/pizza/philly-steak.jpg",
         "size": {
           "S": 10.50,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/philly-steak"
+        }
       },
-      "Canadian Pizza": {
+      {
+        "name": "Canadian Pizza",
         "toppings": "Loads of pepperoni, fresh mushrooms, and smoked bacon, topped with an extra layer of premium mozzarella cheese.",
+        "img": "img/pizza/philly-steak.jpg",
         "size": {
           "S": 10.50,
           "M": 13,
           "L": 16
-        },
-        "img": "img/pizza/philly-steak"
+        }
       }
-    }
+    ]
   }
 }

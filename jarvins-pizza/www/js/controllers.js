@@ -1,8 +1,14 @@
 angular.module('jarp.controllers', [])
 
-.controller('pizzamenuCtrl', function($scope, JarpSrvcs) {
-	$scope.pizzas = JarpSrvcs.allPizza();
+.controller('pizzamenuCtrl', function($scope, menuSrvcs) {
+	$scope.lists = menuSrvcs.menu();
 })
+.controller('pizzadetailCtrl', function($scope, $stateParams, menuSrvcs) {
+  $scope.item = menuSrvcs.itemDetail($stateParams.pizzaId);
+
+})
+
+
 
 .controller('FriendsCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
