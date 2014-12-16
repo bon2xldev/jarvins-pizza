@@ -1,22 +1,20 @@
-angular.module('jarp.controllers', [])
+var app = angular.module('jarp.controllers', []);
 
-.controller('pizzamenuCtrl', function($scope, menuSrvcs) {
+app.controller('pizzamenuCtrl', function($scope, menuSrvcs) {
 	$scope.lists = menuSrvcs.menu();
-})
-.controller('pizzadetailCtrl', function($scope, $stateParams, menuSrvcs) {
+});
+
+app.controller('pizzadetailCtrl', function($scope, $stateParams, menuSrvcs) {
   $scope.item = menuSrvcs.itemDetail($stateParams.pizzaId);
+});
 
-})
-
-
-
-.controller('FriendsCtrl', function($scope, Friends) {
+app.controller('FriendsCtrl', function($scope, Friends) {
   $scope.friends = Friends.all();
-})
+});
 
-.controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
+app.controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
   $scope.friend = Friends.yoh($stateParams.friendId);
-})
+});
 
-.controller('AccountCtrl', function($scope) {
+app.controller('AccountCtrl', function($scope) {
 });
